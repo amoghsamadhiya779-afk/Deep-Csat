@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 
 def main():
     # Define paths relative to the root directory
-    DATA_PATH = os.path.join("data", "eCommerce_Customer_support_data.csv")
+    DATA_PATH = os.path.join("data", "_e_Commerce_Customer_support_data.csv")
     MODEL_DIR = "models"
 
     print("------------------------------------------------")
